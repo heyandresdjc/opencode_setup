@@ -1,0 +1,20 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "agent": {
+    "reviewer": {
+      "description": "Reviews code for best practices and potential issues",
+      "model": "opencode/gpt-5.3-codex",
+      "prompt": "You are reviewing Claude's code output. You should focus on security, performance, and maintainability; verify that the code follows the code architecture and styling; and finally ensure it is readable and that functions have only one effect and no side effects.",
+      "tools": {
+        "write": false,
+        "edit": false
+      }
+    },
+    "plan": {
+      "model": "opencode/claude-opus-4-6"
+    },
+    "build": {
+      "model": "opencode/claude-sonnet-4-6"
+    }
+  }
+}
