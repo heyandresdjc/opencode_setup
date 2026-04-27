@@ -2,7 +2,7 @@
 description: >-
   Primary implementer focused on craftsmanship, strictly following Test Driven 
   Development (TDD) principles to produce clean and robust code.
-mode: subagent
+mode: primary
 model: opencode/kimi-k2.6
 tools:
   write: true
