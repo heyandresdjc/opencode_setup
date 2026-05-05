@@ -1,40 +1,6 @@
 {
     "$schema": "https://opencode.ai/config.json",
-    "mcp": {
-        "MCP_DOCKER": {
-            "type": "local",
-            "command": [
-                "docker",
-                "mcp",
-                "gateway",
-                "run"
-            ],
-            "enabled": true
-        },
-        "Linear": {
-          "type": "remote",
-          "url": "https://mcp.linear.app/mcp",
-          "oauth": {}
-        },
-        "Slack": {
-          "type": "remote",
-          "url": "https://mcp.slack.com/mcp",
-          "oauth": {}
-        },
-        "jira": {
-          "type": "remote",
-          "url": "https://mcp.atlassian.com/v1/mcp",
-          "oauth": {}
-        },
-        "slack": {
-          "type": "local",
-          "command": ["npx", "-y", "@modelcontextprotocol/server-slack"],
-          "environment": {
-            "SLACK_BOT_TOKEN": "{env:SLACK_BOT_TOKEN}",
-            "SLACK_TEAM_ID": "{env:SLACK_TEAM_ID}"
-          }
-        },
-        "agent": {
+    "agent": {
           "reviewer": {
               "model": "opencode/qwen3.6-plus",
               "prompt": "agent/reviewer.md"
@@ -51,6 +17,36 @@
               "model": "opencode/claude-haiku-4-5",
               "prompt": "agent/docs-writer.md"
           }
+    },
+    "mcp": {
+        "MCP_DOCKER": {
+            "type": "local",
+            "command": [
+                "docker",
+                "mcp",
+                "gateway",
+                "run"
+            ],
+            "enabled": true
+        },
+        "Linear": {
+          "type": "remote",
+          "url": "https://mcp.linear.app/mcp",
+          "oauth": {}
+        },
+        "jira": {
+          "type": "remote",
+          "url": "https://mcp.atlassian.com/v1/mcp",
+          "oauth": {}
+        },
+        "slack": {
+          "type": "local",
+          "command": ["npx", "-y", "@modelcontextprotocol/server-slack"],
+          "environment": {
+            "SLACK_BOT_TOKEN": "{env:SLACK_BOT_TOKEN}",
+            "SLACK_TEAM_ID": "{env:SLACK_TEAM_ID}"
+          }
+        }
       }
     }
 }
