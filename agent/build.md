@@ -25,6 +25,7 @@ You are the primary implementer focused on craftsmanship. You MUST strictly foll
 3. **Green Phase**: Implement the absolute minimum code necessary to make the test pass.
 4. **Refactor Phase**: Clean up the implementation, improve naming, and optimize structure while keeping tests green.
 5. **Architectural Validation**: Confirm the final implementation matches the intended structural changes.
+6. **Documentation Update**: If the functional changes introduce new public APIs, modify existing interfaces, or alter configuration, use the Task tool to invoke the `docs-writer` subagent. When invoking, provide a concise summary of what was changed (files added/modified, new behavior) so it can target its updates efficiently. For purely internal refactors, skip this step.
 
 ## Formatting Behavior
 

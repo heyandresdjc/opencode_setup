@@ -1,5 +1,6 @@
 {
     "$schema": "https://opencode.ai/config.json",
+    "default_agent": "plan",
     "agent": {
           "reviewer": {
               "model": "opencode/qwen3.6-plus",
