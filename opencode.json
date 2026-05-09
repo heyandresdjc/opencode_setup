@@ -4,19 +4,23 @@
     "agent": {
           "reviewer": {
               "model": "opencode/qwen3.6-plus",
-              "prompt": "agent/reviewer.md"
+              "prompt": "agents/reviewer.md"
           },
           "plan": {
               "model": "opencode/gemini-3.1-pro",
-              "prompt": "agent/plan.md"
+              "prompt": "agents/plan.md"
           },
           "build": {
               "model": "opencode/kimi-k2.6",
-              "prompt": "agent/build.md"
+              "prompt": "agents/build.md"
           },
           "docs-writer": {
               "model": "opencode/claude-haiku-4-5",
-              "prompt": "agent/docs-writer.md"
+              "prompt": "agents/docs-writer.md"
+          },
+          "react-ts-architect": {
+              "model": "opencode/claude-haiku-4-5",
+              "prompt": "agents/react-ts-architect.md"
           }
     },
     "mcp": {

@@ -10,6 +10,7 @@ This repo is the personal OpenCode configuration at `~/.config/opencode`. It is 
   - `plan` → `opencode/gemini-3.1-pro` (read-only tools)
   - `build` → `opencode/kimi-k2.6` (write / edit / bash enabled)
   - `docs-writer` → `opencode/claude-haiku-4-5` (subagent with write/edit tools, automatically triggered by `build` for documentation updates)
+  - `react-ts-architect` → `opencode/claude-haiku-4-5` (subagent for React/TS architecture, write/edit/webfetch enabled, triggered by `build` for React tasks)
 
 ## Git quirks
 
