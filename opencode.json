@@ -29,6 +29,14 @@
             "SLACK_BOT_TOKEN": "{env:SLACK_BOT_TOKEN}",
             "SLACK_TEAM_ID": "{env:SLACK_TEAM_ID}"
           }
+        },
+        "playwright": {
+          "type": "local",
+          "command": [
+            "npx",
+            "@playwright/mcp@latest"
+          ],
+          "enabled": true
         }
       }
-    }
+  }
