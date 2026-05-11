@@ -1,28 +1,6 @@
 {
     "$schema": "https://opencode.ai/config.json",
     "default_agent": "plan",
-    "agent": {
-          "reviewer": {
-              "model": "opencode/qwen3.6-plus",
-              "prompt": "agents/reviewer.md"
-          },
-          "plan": {
-              "model": "opencode/gemini-3.1-pro",
-              "prompt": "agents/plan.md"
-          },
-          "build": {
-              "model": "opencode/kimi-k2.6",
-              "prompt": "agents/build.md"
-          },
-          "docs-writer": {
-              "model": "opencode/claude-haiku-4-5",
-              "prompt": "agents/docs-writer.md"
-          },
-          "react-ts-architect": {
-              "model": "opencode/claude-haiku-4-5",
-              "prompt": "agents/react-ts-architect.md"
-          }
-    },
     "mcp": {
         "MCP_DOCKER": {
             "type": "local",
