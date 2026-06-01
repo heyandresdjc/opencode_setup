@@ -3,7 +3,6 @@ description: >-
   Primary implementer focused on craftsmanship, strictly following Test Driven 
   Development (TDD) principles to produce clean and robust code.
 mode: primary
-model: opencode/minimax-m2.7
 tools:
   write: true
   edit: true

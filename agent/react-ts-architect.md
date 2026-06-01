@@ -36,7 +36,6 @@ description: >-
     </commentary>
   </example>
 mode: subagent
-model: opencode/glm-5.1
 tools:
   write: true
   edit: true

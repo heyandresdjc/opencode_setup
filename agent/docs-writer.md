@@ -35,7 +35,6 @@ description: >-
     </commentary>
   </example>
 mode: subagent
-model: opencode/claude-haiku-4-5
 tools:
   write: true
   edit: true

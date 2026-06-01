@@ -8,7 +8,6 @@ description: >-
   the user mentions security concerns, vulnerability scanning, or secure coding
   review.
 mode: subagent
-model: opencode/gemini-3-flash
 permission:
   bash: deny
   read: deny
