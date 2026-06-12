@@ -28,6 +28,10 @@
         "chrome"
       ],
       "enabled": true
+    },
+    "lang": {
+      "type": "remote",
+      "url": "https://docs.langchain.com/mcp"
     }
   },
   "plugin": [
