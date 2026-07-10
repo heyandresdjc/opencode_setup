@@ -36,9 +36,10 @@ description: >-
     </commentary>
   </example>
 mode: subagent
+model: openrouter/nvidia/nemotron-3-ultra-550b-a55b
 tools:
-  write: true
-  edit: true
+  write: false
+  edit: false
   webfetch: true
   websearch: true
 ---

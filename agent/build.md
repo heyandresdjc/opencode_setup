@@ -2,6 +2,7 @@
 description: >-
   Primary implementer focused on craftsmanship, strictly following Test Driven 
   Development (TDD) principles to produce clean and robust code.
+model: openrouter/google/gemma-4-31b-it
 mode: primary
 tools:
   write: true

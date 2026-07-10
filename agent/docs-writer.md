@@ -35,6 +35,7 @@ description: >-
     </commentary>
   </example>
 mode: subagent
+models: openrouter/mistralai/mistral-small-2603
 tools:
   write: true
   edit: true

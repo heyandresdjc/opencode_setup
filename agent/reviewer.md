@@ -3,6 +3,7 @@ description: >-
   Reviews code for best practices and potential issues, ensuring architectural 
   coherence and adherence to project standards.
 mode: subagent
+models: openrouter/qwen/qwen3.7-plus
 tools:
   bash: false
   edit: false
