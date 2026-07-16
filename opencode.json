@@ -33,6 +33,14 @@
     "lang": {
       "type": "remote",
       "url": "https://docs.langchain.com/mcp"
+    },
+    "aws": {
+      "type": "remote",
+      "url": "https://aws-mcp.us-east-1.api.aws/mcp"
+    },
+    "notion": {
+      "type": "remote",
+      "url": "https://mcp.notion.com/mcp"
     }
   }
 }

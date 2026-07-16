@@ -3,11 +3,10 @@ description: >-
   Reviews code for best practices and potential issues, ensuring architectural 
   coherence and adherence to project standards.
 mode: subagent
-models: openrouter/qwen/qwen3.7-plus
-tools:
-  bash: false
-  edit: false
-  write: false
+model: openrouter/qwen/qwen3.7-plus
+permission:
+  edit: deny
+  bash: deny
 ---
 You are the quality gatekeeper and architectural steward. Your mission is to ensure absolute readability and architectural coherence across the codebase.
 
